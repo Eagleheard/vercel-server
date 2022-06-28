@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.28.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.16.2",
+    "socket.io": "^4.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "name": "game-shop-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "prettier": "2.5.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@controllers": "src/Controllers",
+    "@errors": "src/Errors",
+    "@models": "src/Models",
+    "@routes": "src/Routes",
+    "@middleware": "src/Middleware",
+    "@config": "src/Config"
+  },
+  "heroku-run-build-script": true
+}
